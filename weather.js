@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY";
+const apiKey = "aBTWLEDG75wvgiswwa09owUU84jR9N45";
 
 fetch(`https://api.tomorrow.io/v4/weather/realtime?location=30.2752,-98.8719&apikey=${apiKey}`)
 .then(res => res.json())
