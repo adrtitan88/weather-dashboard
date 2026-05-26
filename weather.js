@@ -1,3 +1,4 @@
+alert("JS Loaded");
 const apiKey = "aBTWLEDG75wvgiswwa09owUU84jR9N45";
 
 fetch(`https://api.tomorrow.io/v4/weather/realtime?location=30.2752,-98.8719&units=imperial&apikey=${apiKey}`)
