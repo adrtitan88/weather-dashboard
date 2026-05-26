@@ -1,0 +1,40 @@
+body {
+  margin:0;
+  background:#0f172a;
+  font-family:Arial;
+}
+
+.weather-card{
+  color:white;
+  padding:20px;
+  border-radius:24px;
+  background:linear-gradient(145deg,#1e293b,#0f172a);
+}
+
+.top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+
+.city{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.condition{
+  opacity:.7;
+  margin-top:4px;
+}
+
+.temp{
+  font-size:52px;
+  font-weight:800;
+}
+
+.details{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+  opacity:.85;
+}
